@@ -1,15 +1,35 @@
 body{
-  text-align: center;
-/* background-image:url("http://bestanimations.com/Games/Dice/rolling-dice-gif-3.gif"); */
+text-align: center;
+/* background-image:url("http://www.keelynet.com/images/rollingdice.gif"); */
 background-color: gray;
 opacity: 0.6;
 font-size: 20px;
 background-repeat: no-repeat;
 }
+h1{
+  color: white;
+  font-size: 50px;
+}
 ul{
 margin: 0px;
 padding: 0px;
-display: inline-flex;
+display: inline;
 padding: 20px;
 font-size: 24px;
+}
+.two{
+  display: flex;
+  flex-direction: row;
+}
+.player{
+  padding:40px;
+  margin-left: 20%;
+}
+.names{
+  background-color: pink;
+  display: none;
+}
+#button{
+  padding: 50px;
+  margin-left: 20%;
 }
