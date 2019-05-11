@@ -10,9 +10,6 @@ ul{
 margin: 0px;
 padding: 0px;
 display: inline-flex;
-/* float: left; */
-}
-li a {
-  display: inline;
-  width: 60px;
+padding: 20px;
+font-size: 24px;
 }
