@@ -10,6 +10,11 @@ h1{
   color: white;
   font-size: 50px;
 }
+.para{
+  border-radius: 8px 8px 8px 8px;
+  color: white;
+  box-sizing: border-box;
+}
 ul{
 margin: 0px;
 padding: 0px;
@@ -29,7 +34,7 @@ font-size: 24px;
   background-color: pink;
   display: none;
 }
-#button{
+/* #button{
   padding: 50px;
   margin-left: 20%;
-}
+} */
