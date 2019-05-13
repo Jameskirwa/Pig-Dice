@@ -20,7 +20,9 @@ Throw the dice once results let say =6 ,do it again =8 repeat the last time =3
 sum =6+8+3=17.the next person tries and after doing both addition you find the winner.
 
 ##BDD
- behavior            inputs                 outputs
+ behavior                           inputs                 outputs
+first player rolling             4,6,7                    4+6+7=17
+secondplayer rolling             3,7,4                    3+7+4=14
 
 ### And coding style tests
 Who is a pro in the game
