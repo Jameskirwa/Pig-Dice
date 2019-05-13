@@ -3,8 +3,12 @@ $(document).ready(function(){
     $(".names").show();
 
   });
-
-
+  // function player(name,roll,total,active,playing) {
+  //   this.name = name;
+  //   this.roll =0;
+  //   this.total=0;
+  //   this.active=active;
+  //   playing = true;
   $(".para").click(function(){
     ("hide").toggle();
     ("show").toggle();
