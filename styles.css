@@ -7,18 +7,19 @@ font-size: 20px;
 background-repeat: no-repeat;
 }
 img{
-
-}
+border-radius: 65%}
 h1{
-  color: white;
-  font-size: 50px;
-  box-shadow: 3px 3px 4px  blue;
+  color: black;
+  font-size: 65px;
+  box-shadow: 3px 3px 4px  pink;
 
 }
 .para{
-  border-radius: 8px 8px 8px 8px;
-  color: white;
-  box-sizing: border-box;
+  background-color: pink;
+   background-size: 50%;
+   padding: 30px;
+   border-radius: 10px 10px 10px 10px;
+ }
 }
 ul{
 margin: 0px;
@@ -27,9 +28,25 @@ display: inline;
 padding: 20px;
 font-size: 24px;
 }
+#button{
+  padding: 10px;
+  border:1px solid black;
+  border-radius: 8px 8px 8px 8px;
+  font-family: sans-serif;
+  font-size: 1.2em;
+}
+.tot{
+  padding: 10px;
+  border:1px solid black;
+  border-radius: 6px 6px 6px 6px;
+  font-family: sans-serif;
+  font-size: 1.2em;
+}
 .ok{
+  padding: 10px;
+    border-radius: 11px 11px 11px 11px;
   font-size: 20px;
-  padding-bottom: 24px;
+
   margin-bottom: 20px;
 }
 .two{
@@ -37,8 +54,12 @@ font-size: 24px;
   flex-direction: row;
 }
 .player{
-  padding:40px;
+  padding:55px;
   margin-left: 20%;
+  border:1px solid black;
+  border-radius: 10px 10px 10px 10px;
+  font-family: sans-serif;
+  font-size: 1.4em;
 }
 .names{
   background-color: pink;
