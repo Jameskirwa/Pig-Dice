@@ -2,13 +2,18 @@ body{
 text-align: center;
 /* background-image:url("http://www.keelynet.com/images/rollingdice.gif"); */
 background-color: gray;
-opacity: 0.6;
+opacity: 0.7;
 font-size: 20px;
 background-repeat: no-repeat;
+}
+img{
+
 }
 h1{
   color: white;
   font-size: 50px;
+  box-shadow: 3px 3px 4px  blue;
+
 }
 .para{
   border-radius: 8px 8px 8px 8px;
@@ -22,6 +27,11 @@ display: inline;
 padding: 20px;
 font-size: 24px;
 }
+.ok{
+  font-size: 20px;
+  padding-bottom: 24px;
+  margin-bottom: 20px;
+}
 .two{
   display: flex;
   flex-direction: row;
@@ -34,7 +44,3 @@ font-size: 24px;
   background-color: pink;
   display: none;
 }
-/* #button{
-  padding: 50px;
-  margin-left: 20%;
-} */
