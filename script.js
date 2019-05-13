@@ -5,6 +5,11 @@ $(document).ready(function(){
     $(".names").show();
 
   });
+  // $(document).ready(function){
+  //   $("#para").click(function(){
+  //     $(".instruc").show();
+  //   });
+  // }
   $("#diceP1").click(function(){
     james();
   })
@@ -19,26 +24,21 @@ $(document).ready(function(){
     $("#player1Score").text(sum);
     $("#player1Total").text(totalPlayer1);
   });
-  
+
   $("#diceP2").click(function() {
     kirwa();
   })
   var kirwa = function (){
     var sum =Math.floor((Math.random()*6)+1);
     if (sum===1) {
-      alert(player2 rolled);
+      alert("player2 rolled");
     } else {
     totalPlayer2 += sum;
     }
     $("#player2Score").text(sum);
     $("#player2Total").text(totalPlayer2);
-  }
-  // function player(name,roll,total,active,playing) {
-  //   this.name = name;
-  //   this.roll =0;
-  //   this.total=0;
-  //   this.active=active;
-  //   playing = true;
+  });
+});
   $(".para").click(function(){
     ("hide").toggle();
     ("show").toggle();

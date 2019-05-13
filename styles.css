@@ -52,6 +52,9 @@ font-size: 24px;
   display: flex;
   flex-direction: row;
 }
+#para{
+display: block;
+}
 .player{
   padding:55px;
   margin-left: 20%;
