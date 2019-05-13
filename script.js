@@ -4,12 +4,12 @@ $(document).ready(function(){
   $("#button").click(function(){
     $(".names").show();
 
-  });
-  // $(document).ready(function){
-  //   $("#para").click(function(){
-  //     $(".instruc").show();
-  //   });
-  // }
+  // });
+  // // $(document).ready(function){
+  // //   $("#para").click(function(){
+  // //     $(".instruc").show();
+  // //   });
+  }
   $("#diceP1").click(function(){
     james();
   })

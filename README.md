@@ -31,7 +31,10 @@ Who is a pro in the game
 
 ## Technologies
 
- Html, Javascipt, bootstrap and jQuery
+ Html,
+ Javascipt,
+ bootstrap
+ jQuery
 
 
 ## Version
