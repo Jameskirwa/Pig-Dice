@@ -23,7 +23,7 @@ $(document).ready(function(){
     }
     $("#player1Score").text(sum);
     $("#player1Total").text(totalPlayer1);
-  });
+  };
 
   $("#diceP2").click(function() {
     kirwa();
@@ -37,8 +37,7 @@ $(document).ready(function(){
     }
     $("#player2Score").text(sum);
     $("#player2Total").text(totalPlayer2);
-  });
-});
+  }
   $(".para").click(function(){
     ("hide").toggle();
     ("show").toggle();
