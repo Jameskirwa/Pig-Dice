@@ -9,7 +9,7 @@ $(document).ready(function(){
   // //   $("#para").click(function(){
   // //     $(".instruc").show();
   // //   });
-  }
+});
   $("#diceP1").click(function(){
     james();
   })
