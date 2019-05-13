@@ -1,24 +1,16 @@
   <!DOCTYPE html>
-<html lang="en" dir="ltr">
+ <html lang="en" dir="ltr">
   <head>
-     <meta charset="utf-8">
-     <title>Pig-Dice</title>
-      <link rel="stylesheet" href="bootstrap">
-       <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <title>Pig-Dice</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
        <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
   </head>
   <body>
     <h1>Pig Dice</h1>
-
-    <!-- <nav>
-  <ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#Instructions">Instructions</a></li>
-    <li><a href="#Contacts">Contacts</a></li>
-  </ul>
-    </nav> -->
     <img src="http://www.keelynet.com/images/rollingdice.gif">
- <div class="para">
+  <div class="para">
 
   <p>
     <li> As a user, I want to roll the dice when it's my turn to play in the game.</li>
@@ -28,17 +20,24 @@
     <li> As a user, I want to be alerted when my dice rolls on number 1. This will help me know that I can't roll the dice until the alternate player takes their round.</li>
     <li> As a user, I need a way to know which player has won the game, which means they have scored 100 points before the alternate player.</li>
   </p>
- </div>
+  </div>
 
   <button id="button" type="button" name="button">Start Game</button>
   <div class="names">
     <div class="two">
-      <div class="player">
-          <h2>First Player</h2>
-      </div>
-      <div class="player">
-          <h2>Second Player</h2>
-      </div>
+    <div class="player">
+    <h2>First Player</h2>
+    <div class="sum">
+    <p>Total</p>
+    </div>
+    </div>
+    <div class="player">
+    <h2>Second Player</h2>
+
+    <div class="sum">
+    <p>Total</p>
+    </div>
+    </div>
     </div>
   <div class="ok">
     <button type="button" name="button">Roll Dice</button>
